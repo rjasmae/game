@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.play {
+font-style: oblique;
+text-align: center;
+font-size: 40px;
+font-weight: 10;
+text-shadow: 3px 1px;
+color: purple;
+
+
+}
+.rock {
+text-align: center;
+text-shadow: purple 2px 2px;
+font-family: fantasy;
+}
+body {
+    background-color: rgb(228, 187, 238);
+}
+a {
+    text-align: center;
+background-color: violet;
+position: absolute;
+padding: 25px 45px 45px ;
+width: 20%;
+height: 8%;
+justify-content: center;
+left: 40%;
+top: 45%;
+font-size: 23px;
+}
+
+.score-board {
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    font-size: 20px;
+}
+.badge {
+    background-color: brown;
+    
+}
+#player-label {
+position: absolute;
+top: 20px;
+left: -25px;
+}
+#computer-label {
+    position: absolute;
+    top: 20px;
+    right: -44px;
+}
+.selections {
+    display: flex;
+    justify-content: center;
+}
+.selection {
+    margin-top: 100px;
+    background-color: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 100ms;
+    padding: 7px;
+     
+}
+ .selection:hover {
+    transform: scale(1.2);
+ }
+ 
+ .result {
+     margin-top: 70px;
+     text-align: center;
+     font-weight: bold;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ h2 {
+     justify-content: space-around;
+     padding-top: 150px;
+ }
